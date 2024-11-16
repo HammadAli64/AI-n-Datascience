@@ -1,0 +1,161 @@
+# x=int(input("enter a number"))
+# if x==0:
+#   print('number is 0')
+# elif x>0:
+#   print("number is positive")
+# elif x < 0:
+#   print("number is negative")
+# else:
+#   print("enter a valid number")
+#
+# question 02
+# x=int(input("enter your age "))
+# if x<=5 :
+#   print('your are minor')
+# elif 5 < x<=18  :
+#   print("you are adult")
+# elif x>18 :
+#   print("you are senior")
+# else:
+#   print("enter a valid number")
+# question 03
+# x=int(input("enter year"))
+# if x%4==0 & x%100==0:
+#    print("this is leap year")
+# else:
+#    print("not a leap year")
+# question 04
+# x=int(input("enter a number"))
+# if x%2==0:
+#    print("number is even")
+# else:
+#    print("number is odd")
+# question 05
+# x=int(input("enter your grade"))
+# if 80<x<100:
+#    print("A")
+# elif 70<x<80:
+#    print("B")
+# elif 60<x<70:
+#    print("C")
+# elif 50<x<60:
+#    print("D")
+# else:
+#    print("F")
+# question 06
+# y=int(input("enter 2nd number"))
+# if x>y:
+#    print(x,"is greater than ",y)
+# else:
+#    print(y,"is grater than ",x)
+#
+# question 07
+# x=int(input("enter 1st number"))
+# y=int(input("enter 2nd number"))
+# z=int(input("enter 3rd number"))
+# if z<x>y:
+#    print(x,"is greater than ",y," and ",z)
+# elif z<y>x:
+#    print(y,"is greater than ",z," and ",x)
+#
+# else:
+#    print(z,"is grater than ",x," and ",y)
+#  Question 09
+# x = int(input("Enter the first side length: "))
+# y = int(input("Enter the second side length: "))
+# z = int(input("Enter the third side length: "))
+#
+# Check if the sides form a valid triangle using the triangle inequality theorem
+# if (x + y > z)  :
+#    print("The sides form a valid triangle.")
+# elif (x + z > y):
+#    print("The sides form a valid triangle.")
+# elif (y + z > x):
+#    print("The sides form a valid triangle.")
+#
+# else:
+#    print("The sides do not form a valid triangle.")
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# question 10
+# x = input("Enter an alphabet: ").lower()  # Convert input to lowercase to handle both cases
+# arr = ['a', 'e', 'i', 'o', 'u']
+#
+# if x not in arr:
+#    print("The alphabet is not a vowel.")
+# else:
+#    print("The alphabet is a vowel.")
+#
+#  question 11
+# x=int(input("enter a number"))
+# if x%3==0 and x%5==0:
+#   print("is divided by both")
+# else:
+#    print("not")
+#
+# question 12
+# x=int(input("enter temperature "))
+# if x<=0:
+#    print("very cold temperature")
+# elif x>0 and x<35:
+#    print("moderate")
+# else:
+#    print("very hot")
+#
+# question 13
+# x=int(input("enter a number"))
+# y=int(input("enter a number"))
+# z=input("select any operator +,-,*,/")
+# if z=='+':
+#     print(x+y)
+# elif z=='-':
+#     print(x-y)
+# elif z=='*':
+#     print(x*y)
+# elif z=='/':
+#     print(x/y)
+# else:
+#     print("error")
+# question 14
+# year = int(input("Enter a year: "))
+#
+# if year % 100 == 0:
+#     print("The year is a century year.")
+# else:
+#     print("The year is not a century year.")
+# question 15
+# x=int(input("enter a number"))
+# if x%2==0 and x%3==0:
+#     print("is divided by both")
+# elif x%3==0:
+#     print("is divided by 3")
+# elif x%2==0 :
+#   print("is divided by 2")
+# else:
+#    print("not")
+# question 16
+#user_input = input("Enter a string: ")
+# if user_input.isupper():
+#     print("The string is uppercase.")
+# elif user_input.islower():
+#     print("The string is lowercase.")
+# else:
+#     print("The string is a mix of uppercase and lowercase.")
+#question 17
+# score = float(input("Enter your score: "))
+#
+# if score >= 50:
+#     print("You passed!")
+# else:
+#     print("You failed.")
+
+
+

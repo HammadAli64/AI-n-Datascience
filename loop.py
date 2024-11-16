@@ -1,0 +1,7 @@
+a=int(input("Type the First Number"))
+b=int(input("Type the 2nd Number"))
+print("the sum of two numbers is",a+b)
+print("the sub of two numbers is",a-b)
+print("the multiple of two numbers is",a*b)
+print("the div of two numbers is",a/b)
+print("the mod of two numbers is",a%b)
