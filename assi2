@@ -1,0 +1,225 @@
+#Question 1
+# for i in range(1,200):
+#     print(i)
+
+#Question 2
+# number = 2
+# while number <= 50:
+#     print(number)
+#     number += 2
+
+# Question 3
+# sum=0
+# for i in range(1,50):
+#     sum=sum+i
+#     print(sum)
+# Using the sum function and range
+# Initialize the sum to 0
+sum_of_numbers = 0
+
+# Loop through each number from 1 to 100
+# for i in range(1, 101):
+#     sum_of_numbers += i
+# print("The sum of all numbers from 1 to 100 is:", sum_of_numbers)
+
+
+#Question 4
+# x=int(input("enter number"))
+# for i in range(1,11):
+#     print(x,"*",i,"=",x*i)
+#Question 5
+# for i in range(1,101,2):
+#     print(i)
+#Question 6
+# x="Hammad"
+# for i in x:
+#     print(i)
+#Question 7
+# num = int(input("Enter a number: "))
+# factorial = 1
+# i = num
+#
+# while i > 0:
+#     factorial *= i
+#     i =i-1
+#
+# print("Factorial of", num, "is:", factorial)
+#Question 8
+# for i in range(10, 0, -1):
+#     print(i)
+#Question 9
+# Initialize the first two numbers in the Fibonacci sequence
+#a, b = 0, 1
+
+# Print the first 10 Fibonacci numbers
+# print("The first 10 Fibonacci numbers are:")
+# for _ in range(10):
+#     print(a, end=" ")
+#     a, b = b, a + b
+
+#Question 10
+# num = int(input("Enter an integer: "))
+# count = 0
+#
+# # Use absolute value to handle negative numbers
+# n = abs(num)
+#
+# while n > 0:
+#     n //= 10  # Divide n by 10 and discard the remainder
+#     count += 1
+#
+# print("Number of digits:", count)
+
+
+# Function to check if a character is a vowel or consonant
+# def vowel(char):
+#     # Convert character to lowercase for case-insensitive comparison
+#     char = char.lower()
+#
+#   # List of vowels
+#     vowels = ['a','e','i','o','u']
+#
+#     # Check if character is a vowel or consonant
+#     if char in vowels:
+#         return f"{char} is a vowel."
+#     elif char.isalpha():
+#         return f"{char} is a consonant."
+#     else:
+#         return "Invalid input. Please enter an alphabetic character."
+#
+#
+# # Input from the user
+# character = input("Enter a character: ")
+#
+# # Display result
+# print(vowel(character))
+# Function to count digits in an integer
+# def count_digits(number):
+#     # Initialize count
+#     count = 0
+#
+#     # Make number positive if it's negative
+#     number = abs(number)
+#
+#     # Loop until number becomes 0
+#     while number > 0:
+#         number //= 10  # Remove the last digit
+#         count += 1  # Increment count
+#
+#     return count
+#
+#
+# # Input from the user
+# num = int(input("Enter an integer: "))
+#
+# # Handle the case for 0 (since it has 1 digit)
+# if num == 0:
+#     print("The number has 1 digit.")
+# else:
+#     print(f"The number has {count_digits(num)} digits.")
+#
+# # Input from the user
+# num = int(input("Enter an integer: "))
+#
+# # Determine if the number is negative
+# is_negative = num < 0
+# num = abs(num)  # Work with the absolute value for reversing
+#
+# # Initialize reversed number to 0
+# reversed_num = 0
+#
+# # Loop to reverse the digits
+# while num > 0:
+#     last_digit = num % 10                     # Get the last digit
+#     reversed_num = reversed_num * 10 + last_digit  # Build the reversed number
+#     num //= 10                                # Remove the last digit
+#
+# # Restore the negative sign if the original number was negative
+# if is_negative:
+#     reversed_num = -reversed_num
+#
+# print(f"The reversed number is: {reversed_num}")
+
+# num = int(input("Enter an integer: "))
+# for i in range(num, 0, -1):  # Adding -1 as the step to count backwards
+#     print(i)
+
+# for num in range( 0, 10):  # Adding -1 as the step to count backwards
+#     print(num*num)
+# for num in range(0, 10):
+#     if num == 4:
+#         pass # No semicolon needed
+#     print(num)
+# Input from the user
+# num = int(input("Enter an integer: "))
+#
+# # Initialize sums for even and odd numbers
+# even_sum = 0
+# odd_sum = 0
+#
+# # Loop through numbers from 1 up to the given number
+# for i in range(1, num + 1):
+#     if i % 2 == 0:
+#         even_sum += i  # Add to even sum if the number is even
+#     else:
+#         odd_sum += i   # Add to odd sum if the number is odd
+# print(f"Sum of even numbers: {even_sum}")
+# print(f"Sum of odd numbers: {odd_sum}")
+# num = int(input("Guess a number: "))
+# while num != True:
+#     num = int(input("Guess a number: "))
+#     if num==4:
+#         print("Congrats")
+#         break
+#     else:
+#         if num == 4:
+#             print("Congrats")
+#             break
+# Set the correct number
+# correct_number = 7
+# while True:
+#     # Ask the user to enter a number
+#     guess = int(input("Guess the number: "))
+#     if guess == correct_number:
+#         print("Congratulations! You guessed the correct number.")
+#         break  # Exit the loop
+#     else:
+#         print("Try again.")
+# Ask the user to enter an integer
+# number = input("Enter an integer: ")
+# sum_of_digits = 0
+# for i in number:
+#     sum_of_digits += int(i)
+# print("The sum of the digits is:", sum_of_digits)
+# Initialize the first two numbers in the Fibonacci sequence
+#a, b = 0, 1
+
+# Print the first 10 Fibonacci numbers
+# for _ in range(10):
+#     print(a)
+#     a, b = b, a + b  # Move to the next numbers in the sequence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
